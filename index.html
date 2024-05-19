@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie List</title>
+</head>
+<body>
+<h1>Move List</h1>
+<form>
+    <label for="title">Title: </label>
+    <input type="text" placeholder="Title" id="title">
+    <label for="rating">Rating (0-10): </label>
+    <input type="number" id="rating" placeholder="0" min="0" max="10">
+    <button id="add">Add</button>
+</form>
+
+<div id="list">
+    <ul id="movies">
+    </ul>
+</div>
+
+    <!-- jQuery -->
+<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    
+    <!-- JS -->
+<script src="app.js"></script>
+
+</body>
+</html>
